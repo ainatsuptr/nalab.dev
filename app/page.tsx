@@ -18,7 +18,7 @@ export default function Home() {
         {/* Left side - Profile Photo */}
         <div className="flex flex-col items-center justify-center bg-primary p-8 text-primary-foreground sm:w-1/3">
           <div className="relative mb-4 h-40 w-40 overflow-hidden rounded-full border-4 border-primary-foreground sm:h-32 sm:w-32 md:h-40 md:w-40">
-            <Image src="/placeholder.svg?height=160&width=160" alt="Profile" fill className="object-cover" priority />
+            <Image src="/images/profile.jpg" alt="Profile" fill className="object-cover" priority />
           </div>
           <h1 className="text-xl font-bold mb-2">Natsuki Aikawa</h1>
           <p className="text-center text-sm mb-10">Technical Architect</p>
