@@ -17,11 +17,15 @@ This project represents a simple yet elegant digital business card portfolio web
 - [Lucide React](https://lucide.dev/) - Icon library
 - [next-themes](https://github.com/pacocoursey/next-themes) - Theme switching functionality
 
+## 🖼️ Deployment Preview
+
+![Site Preview](/public/images/site-preview.png)
+
 ## 🛠️ Development
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/nalab.dev.git
+git clone https://github.com/ainatsuptr/nalab.dev.git
 cd nalab.dev
 
 # Install dependencies
@@ -53,7 +57,8 @@ npm run start
 
 ## 📄 License
 
-[MIT](LICENSE)
+Copyright (c) 2025 Natsuki Aikawa  
+[MIT](https://opensource.org/licenses/mit-license.php)
 
 ---
 
