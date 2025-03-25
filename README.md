@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# nalab.dev
 
-## Getting Started
+This project represents a simple yet elegant digital business card portfolio website. Built with Next.js 15 and modern Tailwind CSS, it provides visitors with a concise self-introduction.
 
-First, run the development server:
+## 🌟 Features
+
+- **Responsive Design** - Optimal viewing experience across all devices
+- **Dark/Light Mode** - Display modes that adapt to user preferences or environment
+- **Modern UI** - Beautiful interface powered by Tailwind CSS
+- **Performance Optimized** - Fast loading leveraging Next.js capabilities
+
+## 🚀 Tech Stack
+
+- [Next.js 15](https://nextjs.org/) - React framework
+- [React 19](https://react.dev/) - UI library
+- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS framework
+- [Lucide React](https://lucide.dev/) - Icon library
+- [next-themes](https://github.com/pacocoursey/next-themes) - Theme switching functionality
+
+## 🖼️ Deployment Preview
+
+![Site Preview](/public/images/site-preview.png)
+
+## 🛠️ Development
 
 ```bash
+# Clone the repository
+git clone https://github.com/ainatsuptr/nalab.dev.git
+cd nalab.dev
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to see the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Profile Information**: Edit personal details in `app/page.tsx`
+- **Styling**: Modify theme colors and styles in `app/globals.css`
+- **Images**: Place profile images in the `/public/images/` directory
 
-## Learn More
+## 📱 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project can be easily deployed to various platforms such as Vercel, Netlify, or GitHub Pages.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Build
+npm run build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Check static files
+npm run start
+```
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Copyright (c) 2025 Natsuki Aikawa  
+[MIT](https://opensource.org/licenses/mit-license.php)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+nalab.dev - Your online presence made simple and elegant.
